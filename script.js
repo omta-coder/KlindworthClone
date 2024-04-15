@@ -78,3 +78,40 @@ element.forEach(function(e){
         console.log(dets.x);
         console.log(dets.y);
     })
+
+    gsap.to("#page3 #img1",{
+        scale:0.85,
+        filter: 'brightness(0.8)',
+        scrollTrigger:{
+            trigger:"#img1",
+            scroller:"body",
+            markers:true,
+            start:"top 5%",
+            end:"top -50%",
+            scrub:true
+        }
+    })
+    gsap.to("#page3 #img2",{
+        scale:0.85,
+        filter: 'brightness(0.8)',
+        scrollTrigger:{
+            trigger:"#img2",
+            scroller:"body",
+            markers:true,
+            start:"top 5%",
+            end:"top -50%",
+            scrub:true
+        }
+    })
+    gsap.to("#page3 #img3",{
+        // scale:0.85,
+        filter: 'brightness(0.8)',
+        scrollTrigger:{
+            trigger:"#img3",
+            scroller:"body",
+            markers:true,
+            start:"top 5%",
+            end:"top -50%",
+            scrub:true
+        }
+    })
