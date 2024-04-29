@@ -232,7 +232,9 @@ html,body{
     left: 5%;
     font-family: larken;
     font-size: 6vw;
+    /* mix-blend-mode: difference; */
     color: #ede9e2;
+    /*  */
   text-transform: uppercase;
   
   }
